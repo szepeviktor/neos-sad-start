@@ -17,5 +17,4 @@ jobs:
 
       - name: "Look!"
         run: |
-          git clone https://github.com/neos/neos.git .
-          composer update -vvv
+          composer create-project neos/neos-base-distribution neos
