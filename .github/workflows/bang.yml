@@ -16,6 +16,6 @@ jobs:
         run: "sudo update-alternatives --set php /usr/bin/php${{ matrix.php-version }}"
 
       - name: "Look!"
-      - run: |
-        git clone https://github.com/neos/neos.git .
-        composer update -vvv
+        run: |
+          git clone https://github.com/neos/neos.git .
+          composer update -vvv
